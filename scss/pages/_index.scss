@@ -1,12 +1,5 @@
-// Styles spécifiques pour la page d'accueil
 .index-page {
-    main {
-        h1 {
-            color: $secondary-color;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
+    .site-header {
+        background: url('../images/bg-index.png') no-repeat center center;
     }
 }

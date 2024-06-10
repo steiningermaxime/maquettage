@@ -13,33 +13,152 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #3498db;
-  padding: 1rem;
+.site-header {
+  background-size: cover;
+  padding: 1rem 0;
+  background-position: center center;
 }
-header nav ul {
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.site-header .logo {
+  width: 150px;
+}
+.site-header .main-nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  gap: 1rem;
 }
-header nav a {
-  color: white;
+.site-header .main-nav a {
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
+.site-header .btn-candidater {
+  background-color: #7ACFD6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 50px;
+}
 
-.index-page main h1 {
-  color: #2ecc71;
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .site-header .main-nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .site-header .main-nav a {
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  .site-header .btn-candidater {
+    width: 150px;
+    text-align: center;
+    margin-top: 1rem;
+  }
 }
-.index-page main p {
-  font-size: 1.2rem;
+.index-page .site-header {
+  background: url("../images/bg-index.png") no-repeat center center;
 }
 
-.candidacy-page main h1 {
-  color: #3498db;
+.candidacy-page {
+  background-color: #F1F0EE;
 }
-.candidacy-page main p {
-  font-size: 1.2rem;
+.candidacy-page .site-header {
+  background: url("../images/bg-candidacy.png") no-repeat center center;
+  height: 560px;
+}
+.candidacy-page .form-section {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+.candidacy-page .form-section .form-container {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 2rem;
+}
+.candidacy-page .form-section .form-container p.candidacy-text {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #14110F;
+}
+.candidacy-page .form-section .form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.candidacy-page .form-section .form-container form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.candidacy-page .form-section .form-container form .form-group label {
+  color: #14110F;
+  margin-bottom: 0.5rem;
+}
+.candidacy-page .form-section .form-container form .form-group input, .candidacy-page .form-section .form-container form .form-group select, .candidacy-page .form-section .form-container form .form-group textarea {
+  width: 100%;
+  max-width: 361px;
+  height: 42px;
+  padding: 0.5rem;
+  border: 1px solid #001F44;
+  border-radius: 5px;
+}
+.candidacy-page .form-section .form-container form .form-group textarea {
+  height: auto;
+}
+.candidacy-page .form-section .form-container form .btn-submit {
+  background-color: #7ACFD6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.candidacy-page .form-section .map-container {
+  flex: 1;
+  max-width: 50%;
+}
+.candidacy-page .form-section .map-container iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+.candidacy-page .form-section .map-container .campus-title {
+  font-weight: bold;
+  color: #14110F;
+}
+.candidacy-page .form-section .map-container p.candidacy-text {
+  font-size: 1rem;
+  color: #14110F;
+}
+.candidacy-page .form-section .map-container .italic {
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .candidacy-page .form-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .candidacy-page .form-section .form-container, .candidacy-page .form-section .map-container {
+    max-width: 100%;
+    padding: 0;
+  }
+  .candidacy-page .form-section .map-container {
+    margin-top: 2rem;
+  }
 }
 
 .education-page main h1 {
