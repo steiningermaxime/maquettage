@@ -1,0 +1,13 @@
+{
+  "name": "maquettage",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000a\u0000q\u0000u\u0000e\u0000t\u0000t\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/main.scss:assets/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

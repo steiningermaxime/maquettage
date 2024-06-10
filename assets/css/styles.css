@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica, sans-serif";
+  color: #3498db;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  padding: 1rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.index-page main h1 {
+  color: #2ecc71;
+}
+.index-page main p {
+  font-size: 1.2rem;
+}
+
+.candidacy-page main h1 {
+  color: #3498db;
+}
+.candidacy-page main p {
+  font-size: 1.2rem;
+}
+
+.education-page main h1 {
+  color: #217dbb;
+}
+.education-page main p {
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
