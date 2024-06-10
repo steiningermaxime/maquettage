@@ -1,12 +1,59 @@
-// Styles spécifiques pour la page d'éducation
-.education-page {
-    main {
-        h1 {
-            color: $tertiary-color;
-        }
+h1 {
+    margin-top: 10px;
+    padding-left: 80px; 
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 100px; 
+  }
+  
+  .icon-item {
+    text-align: center;
+  }
+  
+  .icon-item img {
+    width: 40px; 
+  }
+  
+  h1 {
+    margin-top: 10px;
+    padding-left: 40px; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 0 5px; 
+    padding: 10px 20px;
+    background-color: #337ab7; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    font-weight: bold; 
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #23527c;
+  }
 
-        p {
-            font-size: 1.2rem;
-        }
-    }
-}
+  .p {
+    text-align: center;
+    padding: 20px;
+  }
+
+  p.presentation {
+    padding: 20px;
+    padding-left: 40px;
+  }
+  p.programme {
+    padding: 20px;
+    padding-left: 40px;
+  }

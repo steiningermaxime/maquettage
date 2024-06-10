@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -42,11 +43,67 @@ header nav a {
   font-size: 1.2rem;
 }
 
-.education-page main h1 {
-  color: #217dbb;
+/* Styles pour la section "Cycle Bachelor" */
+h1 {
+  margin-top: 10px; /* Ajoute une marge de 100px au-dessus du titre */
+  padding-left: 80px; /* Ajoute de l'espace sur le côté gauche du titre */
 }
-.education-page main p {
-  font-size: 1.2rem;
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 100px; /* Ajoute du padding autour des icônes */
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.icon-item img {
+  width: 40px; /* Ajustez la taille selon vos besoins */
+}
+
+/* Styles pour la section "Programmes" */
+h1 {
+  margin-top: 10px;
+  padding-left: 40px; /* Espace au-dessus du titre */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centre les boutons horizontalement */
+  margin-top: 20px; /* Espace entre le paragraphe et le conteneur de boutons */
+}
+
+.btn {
+  margin: 0 5px; /* Espace égal autour des boutons */
+  padding: 10px 20px; /* Ajoute du padding aux boutons */
+  background-color: #337ab7; /* Couleur de fond des boutons */
+  color: #fff; /* Couleur du texte des boutons */
+  border: none; /* Supprime la bordure des boutons */
+  border-radius: 4px; /* Ajoute un léger arrondi aux boutons */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #23527c; /* Couleur de fond des boutons au survol */
+}
+
+.p {
+  text-align: center; /* Centre le texte horizontalement */
+  padding: 20px; /* Ajoute du padding autour du paragraphe */
+}
+
+p.presentation {
+  padding: 20px;
+  padding-left: 40px; /* Ajoute du padding autour du paragraphe */
+}
+
+p.programme {
+  padding: 20px;
+  padding-left: 40px; /* Ajoute du padding autour du paragraphe */
 }
 
 /*# sourceMappingURL=styles.css.map */
